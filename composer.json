@@ -1,0 +1,17 @@
+{
+    "name": "kashif/full-text-search",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kashif\\FullTextSearch\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kashif Sohail",
+            "email": "amkashif171@gmail.com"
+        }
+    ],
+    "require": {},
+    "minimum-stability":"dev"
+}
