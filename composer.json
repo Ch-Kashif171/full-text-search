@@ -1,5 +1,11 @@
 {
     "name": "kashif/full-text-search",
+    "description": "full text search laravel package",
+    "keywords": [
+        "full text search",
+        "laravel-fulltext-search",
+        "full-text-search",
+    ],
     "license": "MIT",
     "autoload": {
         "psr-4": {
