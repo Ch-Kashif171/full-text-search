@@ -1,11 +1,6 @@
 {
     "name": "kashif/full-text-search",
     "description": "full text search laravel package",
-    "keywords": [
-        "full text search",
-        "laravel-fulltext-search",
-        "full-text-search",
-    ],
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -18,6 +13,8 @@
             "email": "amkashif171@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^7.3|^8.0"
+    },
     "minimum-stability":"dev"
 }
