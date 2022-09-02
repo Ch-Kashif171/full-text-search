@@ -18,6 +18,8 @@
             "email": "amkashif171@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^7.3|^8.0"
+    },
     "minimum-stability":"dev"
 }

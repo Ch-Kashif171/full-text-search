@@ -12,7 +12,8 @@ trait Searchable
      * @param $term
      * @return Builder
      */
-    public function scopeSearch($query, $term): Builder {
+    public function scopeSearch($query, $term): Builder
+    {
         return $query->whereRaw("MATCH ({$this->getColumns()}) AGAINST (? IN BOOLEAN MODE)" , $this->getWildCard($term));
     }
 
@@ -20,14 +21,16 @@ trait Searchable
      * @param $term
      * @return string
      */
-    private function getWildCard($term): string {
+    private function getWildCard($term): string
+    {
         return WildCard::wildCard($term);
     }
 
     /**
      * @return string
      */
-    private function getColumns(): string {
+    private function getColumns(): string
+    {
         return implode(',', $this->searchable);
     }
 

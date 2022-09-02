@@ -10,7 +10,8 @@ class WildCard
      * @param $term
      * @return string
      */
-    public static function wildCard($term) {
+    public static function wildCard($term): string
+    {
         $reservedSymbols = ['-', '+', '<', '>', '@', '(', ')', '~'];
         $term = str_replace($reservedSymbols, '', $term);
         $words = explode(' ', $term);
